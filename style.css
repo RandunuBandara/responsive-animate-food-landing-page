@@ -406,15 +406,15 @@ section {
     display: block;
 }
 
-.food-item-wrap.salad>div.salad-type {
+.food-item-wrap.Mobile>div.Mobile-type {
     display: block;
 }
 
-.food-item-wrap.lorem>div.lorem-type {
+.food-item-wrap.Web>div.Web-type {
     display: block;
 }
 
-.food-item-wrap.ipsum>div.ipsum-type {
+.food-item-wrap.Other>div.Other-type {
     display: block;
 }
 
