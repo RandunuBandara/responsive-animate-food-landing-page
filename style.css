@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #0F9D58;
+    --primary-color: #0f489d;
     --background-color: #f0f3f7;
     --secon-color: #9da2ad;
     --grey: #7a7a7b;
@@ -128,22 +128,31 @@ section {
 }
 
 .slogan h1 {
-    font-size: 7rem;
+    font-size: 5rem;
     color: var(--primary-color);
 }
 
+.slogan h2 {
+    font-size: 3rem;
+    color: var(--grey);
+}
+
+
+
 .slogan button {
-    padding: 1rem 5rem;
+    padding: 0.5rem 5rem;
     outline: none;
     border: none;
     background-color: var(--background-color);
     border: .125rem solid var(--primary-color);
-    border-radius: 2rem;
+    border-radius: 4rem;
     color: var(--primary-color);
-    margin: 3rem 0;
+    margin: 1rem 0;
     cursor: pointer;
     font-weight: 600;
     transition: .5s ease-in-out;
+    font-size: 25px;
+    
 }
 
 .slogan button:hover {
@@ -164,7 +173,7 @@ section {
 
 
 .about-slogan {
-    padding: 4rem;
+    padding: 2rem;
     background-color: var(--white);
     border-radius: 2rem;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
@@ -176,9 +185,18 @@ section {
 
 .about-slogan h3 {
     font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--grey);
+}
+
+.about-slogan p {
+    text-align: justify;
+    text-justify: inter-word;
+  
     margin-bottom: 3rem;
     color: var(--grey);
 }
+
 
 .primary-color {
     color: var(--primary-color);
@@ -265,7 +283,7 @@ section {
 }
 
 .img-holder:hover {
-    transform: scale(2) rotate(45deg);
+    transform: scale(1.5) ;
 }
 
 .item-info {
@@ -274,6 +292,7 @@ section {
     align-items: center;
     margin-top: 3rem;
     padding: 0 1rem;
+    
 }
 
 .item-info h3 {
